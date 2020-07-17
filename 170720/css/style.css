@@ -1,0 +1,25 @@
+body{
+    background-color: darkslategrey;
+}
+header {
+    color: beige;
+    background: chocolate;
+    width: 600px;
+    margin: 15px 20px 20px;
+    padding: 100px;
+    border-color: firebrick;
+    border-width: 10px;
+    border-style: groove;
+}
+main{
+    color: coral;
+    background: rgb(37, 38, 39);
+    width: 600px;
+    margin: 50px 20px 35px;
+}
+footer{
+    color: rgb(245, 242, 234);
+    background: rgb(78, 44, 1);
+    width: 600px;
+    margin: 25px 20px;
+}
