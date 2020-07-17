@@ -1,0 +1,22 @@
+header {
+    background: rgb(38, 41, 41);
+    color: thistle;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
+main {
+    background: rgb(177, 150, 150);
+    width: 640px;
+    margin: 0 auto 0 auto;
+    padding: 25px;
+    border: 4px rgb(153, 59, 59) solid;
+}
+footer {
+    background: rgb(66, 55, 55);
+    color: rgb(235, 132, 132);
+    text-align: center;
+    padding: 25px 0 25px 0;
+    margin: 25px 0 0 0;
+}
