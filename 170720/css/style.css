@@ -16,10 +16,13 @@ main{
     background: rgb(37, 38, 39);
     width: 600px;
     margin: 50px 20px 35px;
+    padding: 80px;
+    border: yellow 5px solid;
 }
 footer{
     color: rgb(245, 242, 234);
     background: rgb(78, 44, 1);
     width: 600px;
     margin: 25px 20px;
+    border-bottom: pink 4px solid;
 }
