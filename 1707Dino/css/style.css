@@ -1,3 +1,6 @@
+body {
+    margin: 0;
+}
 header {
     background: rgb(38, 41, 41);
     color: thistle;
