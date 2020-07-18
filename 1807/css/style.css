@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-size: 18px;
+}
+.centro {
+    color: rgb(95, 95, 95);
+    text-align: center;
+    padding: 80px 250px;
+}
+h1 {
+    font-size: 38px;
+}
+h2 {
+    font-size: 29px;
+}
+h3 {
+    font-size: 22px;
+}
+header {
+    background: rgb(41, 88, 88);
+    color: white;
+    text-align: center;
+    padding: 30px 0 25px 0;
+}
+.columns {
+    background: rgb(16, 41, 16);
+    color: white;
+    text-align: center;
+    display: flex;
+}
+.column {
+    padding: 30px 100px;
+}
