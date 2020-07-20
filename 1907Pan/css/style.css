@@ -1,14 +1,17 @@
 body {
+    /* fonte letra, tamanho letra */
     border: 0;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
 }
 header {
+    /* cabeçalho cor fundo, cor letra, espaçamento */
     background-color: #8a5962;
     padding: 0 25px 40px 25px;
     color: rgb(189, 184, 184);
 }
 .box {
+    /* parte central cor fundo, cor letra, espaçamento */
     background-color: #817569;
     color: rgb(226, 217, 217);
     padding: 25px 20px 25px 20px;
@@ -21,25 +24,30 @@ h2 {
     text-align: center;
 }
 .title {
-
+    /* primeira parte texto espaçamento superior e inferior*/
     padding-top: 40px;
     padding-bottom: 40px;
 }
 .title2 {
+    /* 2º titulo espaçamento */
     padding-bottom: 50px;
 }
 .images {
+    /* tornando imagens e texto em colunas */
     display: flex;
 }
 .image {
+    /* texto debaixo das imagens centrar texto, largura, espaçamento */
     text-align: center;
     width: 400px;
     padding: 50px 40px;
 }
 .foot {
+    /* parte inferior colocando em colunas */
     display: flex;
 }
 .box3 {
+    /* parte inferior tamanho fonte, espaçamanto */
     font-size: 14px;
     padding: 25px 25px 20px 25px;
 }
