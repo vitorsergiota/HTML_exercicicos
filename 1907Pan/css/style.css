@@ -1,0 +1,33 @@
+body {
+    border: 0;
+    font-size: 20px;
+}
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.title {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.title2 {
+    padding-bottom: 50px;
+}
+.images {
+    display: flex;
+}
+.image {
+    text-align: center;
+    width: 400px;
+    padding: 50px 40px;
+}
+.foot {
+    display: flex;
+}
+.box3 {
+    font-size: 14px;
+    padding: 25px 25px 20px 25px;
+}
