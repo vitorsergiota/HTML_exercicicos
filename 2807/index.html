@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-PT">
-<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Continuando com DOM aula 10 Gustavo</title>
     <link href="css/style.css" rel="stylesheet">
+    <title>Somando Numeros</title>
 </head>
 <body>
-    <div id="area" onclick="clicar()" onmouseover="entrar()" onmouseout="sair()">
-        Interaja...
-    </div>
-    <h2>Outro exemplo mas somente em JS</h2>
-    <div id="area2">Interaja 2</div>
+    <h1>Somando Valores</h1>
+    <input type="number" name="txtn1" id="txtn1"> +
+    <input type="number" name="txtn2" id="txtn2">
+    <input type="button" value="Somar" onclick="somar()">
+    <div id="res">Resultado</div>
     <script src="scripts/main.js"></script>
 </body>
 </html>
