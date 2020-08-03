@@ -3,4 +3,6 @@ body {
 }
 h1 {
     margin-bottom: 40px;
+    color: darkcyan;
+    text-align: center;
 }
