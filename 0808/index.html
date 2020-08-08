@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Revisão aprendizado</h1>
+    <div id="exe1">
+        <h2>Teste de velocidade.</h2>        
+        <p>Qual foi a sua velocidade?:</p>
+    
+    <!--Criação do input para numeros -->    
+        <input type="number" name="vel1" id="vel1">
+    <!--criação do butão com a função de calculo-->
+        <input type="button" value="Calcular" onclick="calcularv()">
+    <!--Criação da area onde ira surgir resposta-->    
+        <div id="res1">Resultado:</div>
+    </div>
+    <div id="exe2">
+        <h2>Perguntas e respostas:</h2>
+        <p>Qual a capital de Portugal?:</p>
+        
+        <!--Criação de input para texto com respetivo butão-->
+        <input type="text" name="cap" id="cap">
+        <input type="button" value="Responder" onclick="resposta()">
+        <div id="res2">Resposta:</div>
+    </div>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
