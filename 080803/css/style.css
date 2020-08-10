@@ -4,3 +4,18 @@ body {
 h2 {
     padding: 25px 0 25px 0;
 }
+#num1 {
+    width: 50px;
+}
+#massa {
+    width: 60px;
+}
+#altura{
+    width: 60px;
+}
+#inic {
+    width: 80px;
+}
+#perc {
+    width: 80px;
+}
