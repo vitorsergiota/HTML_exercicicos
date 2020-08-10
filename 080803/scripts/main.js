@@ -47,3 +47,23 @@ function calcd() {
     var doac = Number(doa)
     res2.innerText = `Orbigado por doar ${doac} €`
 }
+function adic() {
+    var inic1 = document.querySelector(`#inic`).value
+    var perce = document.querySelector(`#perc`).value
+    var res3 = document.querySelector(`#res3`)
+    var inicial = Number(inic1)
+    var percent = Number(perce)
+    var valorad = inicial * percent / 100
+    var total1 = inicial + valorad
+    res3.innerText = `O valor da % a adicionar é ${valorad} dando Total de ${total1}`
+}
+function subt() {
+    var inic1 = document.querySelector(`#inic`).value
+    var perce = document.querySelector(`#perc`).value
+    var res3 = document.querySelector(`#res3`)
+    var inicial = Number(inic1)
+    var percent = Number(perce)
+    var valorad = inicial * percent / 100
+    var total2 = inicial - valorad
+    res3.innerText = `O valor da % a subtrair é ${valorad} dando Total de ${total2}`
+}
