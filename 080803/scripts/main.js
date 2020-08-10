@@ -21,3 +21,26 @@ function calc2() {
         res1.innerText = `Tem um IMC de ${imc.toFixed(2)} e não se encontra no peso ideal.`
     }
 }
+function doar() {
+    var val = document.querySelector(`#qua`).value
+    var res2 = document.querySelector(`#res2`)
+    switch(val) {
+        case `A`:
+            res2.innerText = `Obrigado por doar 5 €.`
+            break
+        case `B`:
+            res2.innerText = `Obrigado por doar 10 €.`
+            break
+        case `C`:
+            res2.innerText = `Obrigado por doar 20 €.`
+            break
+        case `D`:
+            res2.innerText = `Obrigado por doar 50 €.`
+            break
+    }
+}
+function calcd() {
+    var doa = document.querySelector(`#out`).value
+    var doac = Number(doa)
+    res2.innerText = `Orbigado por doar ${doac} €`
+}
