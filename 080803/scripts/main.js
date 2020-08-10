@@ -37,6 +37,9 @@ function doar() {
         case `D`:
             res2.innerText = `Obrigado por doar 50 €.`
             break
+        default :
+            res2.innerText = `Escolha inválida!`
+            break
     }
 }
 function calcd() {
