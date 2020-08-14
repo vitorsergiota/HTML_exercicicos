@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio Imagens Dinamicas em JS</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Caixa de escolha e Imagens dinamicas</h1>
+    <div id="box1">
+        <h2>És bonito ou feio?</h2>
+
+            Tua Resposta : 
+        <input type="radio" name="cara" id="bonito" checked>
+        <label for="cara">Bonito tipo Principe</label>
+        <input type="radio" name="cara" id="feio">
+        <label for="cara">Feioso tipo Desgraça</label>
+        <input type="radio" name="cara" id="nops">
+        <label for="cara">Lindo como o Sol</label><br><br>
+        <input type="button" value="Espelho meu...Espelho meu" onclick="verdade()">
+    </div>
+    <div id="res"></div>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
