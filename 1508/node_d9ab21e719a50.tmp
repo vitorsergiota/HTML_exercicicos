@@ -1,0 +1,7 @@
+var ini = 5
+var fim = 100
+var pas = 5
+var c = 0
+for ( c = (c + ini);c <= fim; c + pas ) {
+    console.log(c);
+}
