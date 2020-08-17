@@ -1,21 +1,24 @@
 function calcular() {
     var ini = document.querySelector(`#incio`)
-    var fim = document.querySelector(`#fim`)
-    var pas = document.querySelector(`#passo`)
+    var fim1 = document.querySelector(`#fim`)
+    var pas1 = document.querySelector(`#passo`)
     var res = document.querySelector(`#res`)
-    var ini1 = Number(ini.value)
-    var fim1 = Number(fim.value)
-    var pas1 = Number(pas.value)
-    if (ini1 <= 0 || fim1 <= 0) {
-        window.alert(`Por favor coloque um numero acima de 0!`)
+    var inicio = Number(ini.value)
+    var fim = Number(fim1.value)
+    var pas = Number(pas1.value)
+    if (inicio == 0 || fim == 0 || pas == 0) {
+        window.alert(`Por favor faltam dados!`)
+        res.innerHTML = `Insira dados.`
     } else {
-    var resul = ini1 + pas1
-    res.innerHTML +=`${ini1}`
-    for (c = 1; resul <= fim1; c++) {
-        res.innerHTML +=`👉 ${resul}`
-        var res1 = resul + pas1
-        resul = res1
+        if ( inicio < fim) {
+            for ( let c = inicio; c <= fim; c += pas) {
+            res.innerHTML += `👉 ${c}`
+        }
+        } else {
+            for ( let c = inicio; c >= fim; c -= pas) {
+                res.innerHTML += `👉 ${c}`
+            }            
+        }
+        res.innerHTML += `💩VERY NICE💩`
     }
-    res.innerHTML +=` 🖕`
     }
-}
