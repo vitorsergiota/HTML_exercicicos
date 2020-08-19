@@ -1,4 +1,8 @@
-var a = window.document.getElementById(`area`);
-    function clicar() {
-        a.setAttribute (`images/electra.jpg`);
-    }
+function clicar() {
+    var ima = document.getElementById(`imo`)
+    ima.src = `images/electra.jpg`
+}
+function voltar() {
+    var ima = document.getElementById(`imo`)
+    ima.src = `images/gray.jpg`
+}
